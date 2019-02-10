@@ -20,6 +20,7 @@ file1.txt file2.txt differ: byte 9
 #### Example command
 ~~~ bash
 $cmp -i 10 file1.txt file2.txt
+file1.txt file2.txt differ: char 3, line 1
 ~~~
 
 ##### Break it down
@@ -27,7 +28,10 @@ This compares all the bytes of file1.txt and file2.txt after the 10th byte
 
 #### Example command
 ~~~ bash
-cmp -l file1.txt file2.txt
+$ cmp -l file1.txt file2.txt
+13 150 142
+14 151 171
+cmp: EOF on file1.txt
 ~~~
 
 ##### Break it down
