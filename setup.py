@@ -9,6 +9,6 @@ setup(
         'cython',
         'mistune',
         'Pygments',
-        'Frozen-Flask',
+        'gunicorn',
     ],
 )
