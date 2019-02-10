@@ -20,7 +20,7 @@
     <div class="row">
         {% for filename, command, overview in commands %}
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <a href="/reference/static/{{ category }}/{{ filename }}.html">
+            <a href="/{{ category }}/{{ filename }}">
                 <h5>{{ command }}</h5>
             </a>
             {{ overview | markdown }}
