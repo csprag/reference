@@ -4,12 +4,12 @@ Contributor
 Example during OH++
 
 ~~~ bash
-*short* example of command usage and output
+ls -1 | wc -l
 ~~~
 
 ---
 
-### Useful Options / Examples
+### Is this actual documentation yet?
 
 #### Example command
 
