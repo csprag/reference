@@ -4,8 +4,8 @@ xclip
 `xclip` is useful for copying the contents of files to the clipboard
 
 ~~~ bash
-$ echo "clipped text" > c.txt
-$ xclip c.txt -sel c
+$ echo "clipped text" > file.txt
+$ xclip file.txt -sel c
 ~~~
 
 ---
