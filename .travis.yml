@@ -6,7 +6,7 @@ install:
 script:
   - python freeze.py
   - mkdir build
-  - cp index.html static build
+  - cp -R index.html static build
 deploy:
   provider: pages
   local-dir: build
