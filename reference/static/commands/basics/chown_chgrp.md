@@ -1,9 +1,8 @@
-chown/chgrp
------------
-TODO: Add documentation for this command by submitting a pull request.
-<!-- one line explanation would go here -->
+chown_chgrp
+-------
 
-<!-- minimal example -->
+Short description of the command
+
 ~~~ bash
 *short* example of command usage and output
 ~~~
