@@ -81,7 +81,32 @@ This extends the verification timeout period and allows users to continue to car
 
 #### `sudo -i`
 
-This opens an interactive shell as root by default. If there is not a command specified after `sudo -i`, 
+This opens an interactive shell as root by default. If there is a command specified after `sudo -i`, it runs the command as root by default and returns to the user's shell afterwards.
+
+```
+[csprag@test]$ sudo -i
+[root]#
+
+[csprag@test]$ sudo -i whoami
+root
+[csprag@test]$ 
+```
+
+#### `sudo  -e <filename>`
+
+This allows the editing of a file by sudo by temporarily copying it and opening it with the with one of the editos in descending preference: `SUDO_EDITOR`, `VISUAL`, `EDITOR`. If none are found, one in `sudoers` is used. After editing is complete, `sudo` attempts to copy back the file and if it is unsuccessful, it throws you back into the editor, allowing you to save it somewhere else.
+
+#### `sudo -s`
+
+This allows `sudo` to open a shell other than the default shell of the target user. It allows sudo to open a non-`bash` shell.
+
+```
+[csprag@test]$ sudo -s /bin/sh
+# 
+
+[csprag@test]$ sudo -s /bin/zsh
+test# 
+```
 
 ### Related Commands
 
