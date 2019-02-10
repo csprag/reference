@@ -1,4 +1,4 @@
-COMMAND
+commit
 -------
 
 git commit records changes to the repository.
