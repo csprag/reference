@@ -23,3 +23,6 @@ def markdown(text, **options):
 # All views must be imported after app creation
 # TODO: Find a way to avoid circular imports
 import reference.views
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0")
