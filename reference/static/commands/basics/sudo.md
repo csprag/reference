@@ -79,6 +79,10 @@ This runs the command specified without prompting the user for their password. T
 
 This extends the verification timeout period and allows users to continue to carry out `sudo` commands without having to enter the password for a longer period of time.
 
+#### `sudo -i`
+
+This opens an interactive shell as root by default. If there is not a command specified after `sudo -i`, 
+
 ### Related Commands
 
 [su](../commands/su)
