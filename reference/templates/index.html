@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Reference{% endblock %}
+
+{% block content %}
+
+<p>
+    <h2>Quick Reference</h2>
+</p>
+
+<p>
+    This page collects commands we have (or will) discuss throughout the course. Click on a command for more details on
+    its operation and some examples of common or useful operations. We encourage students to contribute to this page
+    through the advanced homework on git and open source contributions.
+</p>
+
+<div class="container-fluid">
+    {% for category, commands in allFiles.items() %}
+    <h3>{{ category | capitalize }}</h3>
+    <div class="row">
+        {% for filename, command, overview in commands %}
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <a href="/static/{{ category }}/{{ filename }}.html">
+                <h5>{{ command }}</h5>
+            </a>
+            {{ overview | markdown }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

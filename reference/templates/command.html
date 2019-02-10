@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ name }}{% endblock %}
+
+{% block content %}
+
+<div id="command-page">
+    <br />
+    {{ documentation | markdown }}
+</div>
+
+{% endblock %}
