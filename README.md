@@ -1,15 +1,13 @@
-# Computer Science Pragmatics
+# Computer Science Pragmatics Reference Page
 
-[![Build Status](https://travis-ci.org/csprag/reference.svg?branch=master)](https://travis-ci.org/csprag/reference)
-
-This repository holds the sources for the course homepage for Computing for Computer Scientists,
+This repository holds the reference page for the course homepage for Computer Science Pragmatics,
 a course for early-career EECS students at the University of Michigan.
 
 For more information, visit the course homepage: [https://csprag.herokuapp.com](https://csprag.herokuapp.com/)
 
 ## Contributing
 
-The site itself uses [GitHub Pages][], [Flask][], and [Frozen-Flask][].
+The site itself uses [GitHub Pages][], [Flask][].
 
 Before contributing, please check [open issues][] and create a [new issue][] if a one for your proposed contribution does not exist.
 
@@ -45,7 +43,6 @@ After making a change and verifying that it works, please submit a [pull request
 
 [GitHub Pages]: https://pages.github.com/
 [Flask]: http://flask.pocoo.org/
-[Frozen-Flask]: https://flask-flatpages.readthedocs.io/en/latest/
 [open issues]: https://github.com/c4cs/c4cs.github.io/issues
 [new issue]: https://github.com/c4cs/c4cs.github.io/issues/new
 [Markdown]: http://daringfireball.net/projects/markdown/
