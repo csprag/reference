@@ -5,6 +5,7 @@ import re
 
 
 @app.route('/')
+@app.route('/reference')
 def reference():
     commands_path = path.join(app.static_folder, 'commands')
     commands = {}
@@ -20,7 +21,7 @@ def reference():
     return render_template('index.html', allFiles=commands)
 
 
-@app.route('/static/<category>/<name>.html')
+@app.route('/reference/static/<category>/<name>.html')
 def command(category, name):
     content = open(path.join(app.static_folder, 'commands', category, name + '.md')).read()
     return render_template('command.html', name=name, documentation=content)
