@@ -12,12 +12,12 @@ $ sleep 1s
 
 ### Useful Options/Examples
 There are four time units that can be used
-'s' - seconds
-'m' - minutes
-'h' - hours
-'d' - days
+`s` - seconds
+`m` - minutes
+`h` - hours
+`d` - days
 
-When multiple inputs are given, the times are added together
+### When multiple inputs are given, the times are added together
 ~~~ bash
 $ sleep 2m 3s
 ~~~
@@ -28,7 +28,7 @@ $ sleep 3s 3s
 ~~~
 Terminal will sleep for 6 seconds
 
-Floating point input is also allowed
+### Floating point input is also allowed
 ~~~ bash
 $ sleep 0.5m
 ~~~
