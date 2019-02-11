@@ -30,6 +30,7 @@ $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
+
 # Run 'git clean -xdi' to see what will be removed (this won't delete anything yet)
 $ git clean -xdi
 Would remove the following items:
@@ -46,6 +47,8 @@ Removing .pytest_cache/
 Removing insta485.egg-info/
 Removing insta485/__pycache__/
 Removing insta485/views/__pycache__/
+
+$ # End of command sequence
 ~~~
 
 ##### Break it down
