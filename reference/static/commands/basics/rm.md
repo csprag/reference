@@ -4,7 +4,7 @@ rm
 `rm` is a built-in command used to remove files from the user's computer
 
 ~~~ bash
-rm <file>
+$ rm <file>
 ~~~
 
 This command will search the **working directory** for the specified file(s) and *permanently*
@@ -18,7 +18,7 @@ Errors
 You can't remove something that isn't there. If a file you named doesn't exist, `rm` will tell you.
 
 ~~~ bash
-rm absent.file
+$ rm absent.file
 rm: absent.file: No such file or directory
 ~~~
 
@@ -31,7 +31,7 @@ We can remove multiple files with just one command. Simply list as many files as
 to remove.
 
 ~~~ bash
-rm <first> <second> <third>
+$ rm <first> <second> <third>
 ~~~
 
 This command will remove files `<first>`, `<second>`, and `<third>` from the working directory.
@@ -43,7 +43,7 @@ By using the `-R` or `-r` options (they do the same thing), we can remove direct
 *recursively*.
 
 ~~~ bash
-rm -R <directory>
+$ rm -R <directory>
 ~~~
 
 This command will remove the entire directory rooted at `<directory>`, including any files
@@ -55,13 +55,13 @@ Sometimes you will be prompted to confirm that you want to remove a file. To ski
 and confirm anyway, use the `-f` option.
 
 ~~~ bash
-rm -f <file>
+$ rm -f <file>
 ~~~
 
 This will remove `<file>` without a prompt, regardless of the file's permissions.
 
 ~~~ bash
-rm -Rf <directory>
+$ rm -Rf <directory>
 ~~~
 
 This will remove the entire directory rooted at `<directory>`, including any files or directories
@@ -74,7 +74,7 @@ Got a million JPEG images and you don't want to delete them all one by one?
 No problem! Like many other commands, `rm` lets you use wildcards (`*`).
 
 ~~~ bash
-rm *.jpg
+$ rm *.jpg
 ~~~
 
 This command will remove all files with the `.jpg` extension.
