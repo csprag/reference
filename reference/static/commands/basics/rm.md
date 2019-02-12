@@ -66,3 +66,15 @@ rm -Rf <directory>
 
 This will remove the entire directory rooted at `<directory>`, including any files or directories
 it contains, without any prompts.
+
+Wildcards
+-----
+
+Got a million JPEG images and you don't want to delete them all one by one?
+No problem! Like many other commands, `rm` lets you use wildcards (`*`).
+
+~~~ bash
+rm *.jpg
+~~~
+
+This command will remove all files with the `.jpg` extension.
