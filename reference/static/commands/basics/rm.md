@@ -4,7 +4,7 @@ rm
 `rm` is a built-in command used to remove files from the user's computer
 
 ~~~ bash
-rm file.ext
+rm <file>
 ~~~
 
 This command will search the working directory for the specified file(s) and permanently
@@ -20,10 +20,10 @@ We can remove multiple files with just one command. Simply list as many files as
 to remove.
 
 ~~~ bash
-rm <file1> <file2> <file3>
+rm <first> <second> <third>
 ~~~
 
-This will remove file1, file2, and file3.
+This command will remove files `first`, `second`, and `third` from the working directory.
 
 #### Example command
 
