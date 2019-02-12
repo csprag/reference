@@ -78,3 +78,11 @@ $ rm *.jpg
 ~~~
 
 This command will remove all files with the `.jpg` extension.
+
+---
+
+For more information, see the man pages for `rm`.
+
+~~~ bash
+$ man rm
+~~~
