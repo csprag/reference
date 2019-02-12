@@ -1,5 +1,5 @@
 rm
--------
+-----
 
 `rm` is a built-in command used to remove files from the user's computer
 
@@ -37,7 +37,7 @@ rm -R <directory>
 This command will remove the entire directory rooted at `<directory>`, including any files
 or directories it contains.
 
-##### Bypass Prompts
+#### Bypass Prompts
 
 Sometimes you will be prompted to confirm that you want to remove a file. To skip the prompt
 and confirm anyway, use the `-f` option.
