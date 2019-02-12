@@ -1,10 +1,10 @@
 rm
 -------
 
-Short description of the command
+`rm` is a built-in command used to remove files from the user's computer
 
 ~~~ bash
-*short* example of command usage and output
+rm file.ext
 ~~~
 
 ---
