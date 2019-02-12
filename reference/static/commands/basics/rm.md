@@ -1,5 +1,5 @@
 rm
--------
+----
 
 `rm` is a built-in command used to remove files from the user's computer
 
@@ -10,7 +10,7 @@ rm file.ext
 This command will search the working directory for the specified file(s) and permanently
 remove any matching files. To see the working directory, use the command `pwd`.
 
----
+----
 
 ### Useful Options / Examples
 
