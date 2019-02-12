@@ -12,6 +12,18 @@ remove any matching files. To see the working directory, use the command `pwd`.
 
 ---
 
+Errors
+-----
+
+You can't remove something that isn't there. If a file you named doesn't exist, `rm` will tell you.
+
+~~~ bash
+rm absent.file
+rm: absent.file: No such file or directory
+~~~
+
+In this case, `absent.file` was not found in the working directory.
+
 Multiple Files
 -----
 
