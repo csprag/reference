@@ -23,7 +23,7 @@ to remove.
 rm <first> <second> <third>
 ~~~
 
-This command will remove files `first`, `second`, and `third` from the working directory.
+This command will remove files `<first>`, `<second>`, and `<third>` from the working directory.
 
 #### Directories
 
@@ -34,7 +34,7 @@ By using the `-R` or `-r` options (they do the same thing), we can remove direct
 rm -R <directory>
 ~~~
 
-This command will remove the entire directory rooted at `directory`, including any files
+This command will remove the entire directory rooted at `<directory>`, including any files
 or directories it contains.
 
 ##### Bypass Prompts
@@ -46,11 +46,11 @@ and confirm anyway, use the `-f` option.
 rm -f <file>
 ~~~
 
-This will remove `file` without a prompt, regardless of the file's permissions.
+This will remove `<file>` without a prompt, regardless of the file's permissions.
 
 ~~~ bash
 rm -Rf <directory>
 ~~~
 
-This will remove the entire directory rooted at `directory`, including any files or directories
+This will remove the entire directory rooted at `<directory>`, including any files or directories
 it contains, without any prompts.
