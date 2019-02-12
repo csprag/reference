@@ -14,9 +14,16 @@ remove any matching files. To see the working directory, use the command `pwd`.
 
 ### Useful Options / Examples
 
-#### Example command
+#### Multiple Files
 
-##### Break it down
+We can remove multiple files with just one command. Simply list as many files as you'd like
+to remove.
+
+~~~ bash
+rm <file1> <file2> <file3>
+~~~
+
+This will remove file1, file2, and file3.
 
 #### Example command
 
