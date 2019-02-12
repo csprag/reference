@@ -12,9 +12,7 @@ remove any matching files. To see the working directory, use the command `pwd`.
 
 ---
 
-### Useful Options / Examples
-
-#### Multiple Files
+### Multiple Files
 
 We can remove multiple files with just one command. Simply list as many files as you'd like
 to remove.
@@ -25,7 +23,7 @@ rm <first> <second> <third>
 
 This command will remove files `<first>`, `<second>`, and `<third>` from the working directory.
 
-#### Directories
+### Directories
 
 By using the `-R` or `-r` options (they do the same thing), we can remove directories
 *recursively*.
