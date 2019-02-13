@@ -1,15 +1,14 @@
 rsync
 -------
 
-- Rsync is usually used for remotely copying files to or from a computer to which you have ssh access.
-- Rsync copies files either to or from a remote host, or locally on the current host (it does not support copying files between two remote hosts).
+rsync is usually used for remotely copying files to or from a computer to which you have ssh access. Copies files either to or from a remote host, or locally on the current host (it does not support copying files between two remote hosts).
 
 
 Usage
 -------
 Basic Syntax:
 ~~~ bash
-rsync source destination
+$ rsync source destination
 ~~~
 
 For example, copy files from a remote machine:
@@ -35,36 +34,30 @@ For example, if you try to copy a directory that you already have, rsync will de
 
 ### Commonly Used Options:
 --------
-
 #### -a flag
-
 ##### Ensures that symbolic links, devices, attributes, permissions, ownerships, etc. are preserved in the transfer:
 ~~~ bash
 $ rsync -a  username@myhost.university.edu:/my/source /my/destination/
 ~~~
-
+--------
 #### -z flag
-
 ##### Compresses files during transfer.
-
+--------
 #### -v flag
-
 ##### Verbose mode. Gives extra output.
-
+--------
 #### --progress
-
 ##### Shows the progress of the file transfer.
-
-We can use these flags all at once like this:
+--------
+##### We can use these flags all at once like this:
 ~~~ bash
 $ rsync -azv --progress username@myhost.university.edu:/my/source /my/destination/
 ~~~
-
+--------
 #### --dry-run
-
 ##### Allows us to preview rsync's behavior without actually transferring any files.
 ~~~ bash
 $ rsync --dry-run username@myhost.university.edu:/my/source /my/destination/
 ~~~
-
-For a full list of rsync flags and commands, visit: https://linux.die.net/man/1/rsync
+--------
+##### For a full list of rsync flags and commands, visit: https://linux.die.net/man/1/rsync
