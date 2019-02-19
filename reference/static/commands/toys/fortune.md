@@ -30,7 +30,6 @@ Keep in mind always the four constant Laws of Frisbee:
 (3) The probability of a Frisbee hitting something is directly proportional to the cost of hitting it.  For instance, a Frisbee will always head directly towards a policeman or a little old lady rather than the beat up Chevy.
 (4) Your best throw happens when no one is watching; when the cute girl you've been trying to impress is watching, the Frisbee will invariably bounce out of your hand or hit you in the head and knock you silly.
 ~~~
-# Please enter the commit message for your changes. Lines starting
 ##### Break it down
 -l - when run with -l, fortune will only use quotations longer than the length specified by -n, or 160 characters if -n is not used
 
