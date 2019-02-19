@@ -11,7 +11,6 @@ temp.ayXVZb
 
 ---
 
-
 ### Useful Options / Examples
 * `-d` : make a unique directory instead of a file 
 * `-q` : fail silently if there's an error (i.e. if you're scripting and don't want an error message to print)
@@ -43,34 +42,6 @@ temp.pPSsxv // this is a temporary directory
 
 ~~~
 
-#### Example command
-`echo` can also be used with pattern matching. The following command line will show all the cpp files under current directory. 
-
-~~~ bash
-$ echo *.cpp
-~~~
-
-The following command line will show all the files under current directory.
-
-~~~ bash
-$ echo *
-~~~
-
-#### Example command
-'echo' can be used to show the environment value. The following command line will show user's PATH environment variable.
-
-~~~ bash
-$ echo $PATH
-~~~
-
-#### Example command
-`echo -e` flag is used to enable the backslash-escaped characters in following table:
-
-~~~ bash
-$ echo -e -n "Hello World.\nThis is a new line.\n"
-Hello World.
-This is a newline.
-~~~
 
 ### Notes/Bugs
 The `mktemp` function is useful but can be dangerous from a security perspective since it
@@ -78,4 +49,4 @@ creates filenames that can be guessed. The risk is minimized when large numbers 
 number of possible temporary filenames. Use `mkstemp` or `mkostemp`  to increase security.
 
 ### Reference
-To learn more use the command `man mktemp`
+To see the full documentation use the command `man mktemp`
