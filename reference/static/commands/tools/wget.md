@@ -50,7 +50,7 @@ frequently.
 Ultimately, these three flags can be combined to attempt to retrieve a website for an 
 extended period of time, as seen below.
 ~~~ bash
-# Attempt to download a website that goes down a lot over the course of
-# an hour
+# Attempt to download a website with frequent downtime over the course 
+# of an hour
 $ wget -T 30 -t 40 -w 60 https://www.google.com/
 ~~~
