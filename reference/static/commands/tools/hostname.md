@@ -19,3 +19,27 @@ My_computer.local
 ~~~ bash
 $ sudo hostname NEWNAME
 ~~~
+
+#### -a flag
+
+##### Displays alias of host
+
+~~~ bash
+$ hostname -a
+~~~
+
+#### -i flag
+
+##### Displays network address
+
+~~~ bash
+$ hostname -i
+~~~
+
+#### -d flag
+
+##### Displays name of the DNS domain
+
+~~~ bash
+$ hostname -d
+~~~
