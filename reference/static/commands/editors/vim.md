@@ -26,14 +26,20 @@ Navigating vim text editor vs. something more modern is a different paradigm / w
 
 ## Normal Mode
 
-## Recording Macros
-
 ## Plugins
+#### FZF (Fuzzy Finder)
+#### NerdTree
+#### Ctags
+#### Cscope
 
 ## Useful Commands
-
 #### Split Window
-
-
+#### Jump to end of line
+#### Jump to begenning of line
+#### Highlight entire line
+#### Autocomplete word
+#### Jump to previous file
+#### Set line numbers
+#### Recording Macros
 
 
