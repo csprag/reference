@@ -1,21 +1,27 @@
 asciiview
 -------
 TODO: Add documentation for this command by submitting a pull request.
-<!-- one line explanation would go here -->
+This command opens up any image file as ASCII art
 
-<!-- minimal example -->
+First, you'll need to install two packages to use this command: aview and imagemagick
+
+You can install them using this command
 ~~~ bash
-*short* example of command usage and output
+apt-get install aview imagemagick
 ~~~
+You can then use the command like this
+~~~ bash
+asciiview apple.jpg
+~~~
+You should end up with this:
+![Example Output] (apple.jpg)
 
 ---
 
 ### Useful Options / Examples
 
-#### Example command
+#### Saving an image
+You can type s to save the output as a text file for later use.
 
-##### Break it down
-
-#### Example command
-
-##### Break it down
+#### Zooming in/out
+You can type Z or + to zoom into the image. You can also type z or - to zoom out from the image.
