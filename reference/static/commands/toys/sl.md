@@ -1,21 +1,99 @@
 sl
 -------
-TODO: Add documentation for this command by submitting a pull request.
 <!-- one line explanation would go here -->
+`sl` (Steam Locomotive) is a script that draws a steam locomotive using ascii characters moving across your terminal.
 
 <!-- minimal example -->
+To start `sl`, simply type the following:
 ~~~ bash
-*short* example of command usage and output
+$ sl
 ~~~
 
 ---
 
+### Examples of sl
+`sl` uses ascii art to draw a steam locomotive with the goal of correcting users who meant to type `ls`.
+
+`sl` does not come pre-installed when you install linux. To install it on your machine, do the following:
+~~~ bash
+$ sudo apt-get install sl
+~~~
+
+Now you can use `sl` to make a steam locomotive will move across your terminal!
+
+<pre>
+                      (@@) (  ) (@)  ( )  @@    ()    @     O     @     O      @
+                 (   )
+             (@@@@)
+          (    )
+
+        (@@@)
+       ====        ________                ___________
+   _D _|  |_______/        \__I_I_____===__|_________|
+    |(_)---  |   H\________/ |   |        =|___ ___|      _________________
+    /     |  |   H  |  |     |   |         ||_| |_||     _|                \_____A
+   |      |  |   H  |__--------------------| [___] |   =|                        |
+   | ________|___H__/__|_____/[][]~\_______|       |   -|                        |
+   |/ |   |-----------I_____I [][] []  D   |=======|____|________________________|_
+ __/ =| o |=-~~\  /~~\  /~~\  /~~\ ____Y___________|__|__________________________|_
+  |/-=|___|=    ||    ||    ||    |_____/~\___/          |_D__D__D_|  |_D__D__D_|
+   \_/      \O=====O=====O=====O_/      \_/               \_/   \_/    \_/   \_/
+</pre>
+
 ### Useful Options / Examples
+* `a` - The people on the train will cry out for help, but sadly, you can do nothing for them.
+<pre>
+                          (  ) (@@) ( )  (@)  ()    @@    O     @     O     @      O
+                     (@@@)
+                 (    )
+              (@@@@)
 
-#### Example command
+            (   )
+         ====        ________                ___________
+     _D _|  |_______/        \__I_I_____===__|_________|
+      |(_)---  |   H\________/ |   |        =|___ Help!     _________________
+      /     |  |   H  |  |     |   |         |(O) \O/|     _|                \_____A
+     |      |  |   H  |__--------------------| [___] |   =|                        |
+     | ________|___H__/__|_____/[][]~\_______|       |   -|                        |
+     |/ |   |-----------I_____I [][] []  D   |=======|____|________________________|_
+   __/ =| o |=-O=====O=====O=====O \ ____Y___________|__|__________________________|_
+    |/-=|___|=    ||    ||    ||    |_____/~\___/          |_D__D__D_|  |_D__D__D_|
+     \_/      \__/  \__/  \__/  \__/      \_/               \_/   \_/    \_/   \_/
+</pre>
 
-##### Break it down
+* `l` - A smaller steam locomotive will appear.
+<pre>                      
+                            (@@) (  ) (@)  ( )  @@    ()    @     O     @     O      @
+                 (   )
+             (@@@@)
+          (    )
 
-#### Example command
+        (@@@)
+        ++      +------ ____                 ____________________ ____________________
+        ||      |+-+ |  |   \@@@@@@@@@@@     |  ___ ___ ___ ___ | |  ___ ___ ___ ___ |
+      /---------|| | |  |    \@@@@@@@@@@@@@_ |  |_| |_| |_| |_| | |  |_| |_| |_| |_| |
+     + ========  +-+ |  |                  | |__________________| |__________________|
+    _|--/~\------/~\-+  |__________________| |__________________| |__________________|
+   //// O========O_/       (O)       (O)        (O)        (O)       (O)        (O)
+</pre>
 
-##### Break it down
+* `F` - The steam locomotive appears to fly by moving up on the terminal.
+<pre>                 
+                    (   )(@@)
+          (    )@@)        (  ) (@)
+                                     ( )  @@
+        (@@@)                                   ()    @
+      ====        ________                ___________       O
+  _D _|  |_______/        \__I_I_____===__|_________|
+   |(_)---  |   H\________/ |   |        =|___ ___|
+   /     |  |   H  |  |     |   |         ||_| |_||      _________________
+  |      |  |   H  |__--------------------| [___] |     _|                \_____A
+  | ________|___H__/__|_____/[][]~\_______|       |   =|                        |
+  |/ |   |-----------I_____I [][] []  D   |=======|__ -|                        |
+__/ =| o |=-~~\  /~~\  /~~\  /~~\ ____Y___________|__ _|________________________|_
+ |/-=|___|=    ||    ||    ||    |_____/~\___/        __________________________|_
+  \_/      \_O=====O=====O=====O/      \_/              |_D__D__D_|  |_D__D__D_|
+                                                         \_/   \_/    \_/   \_/
+</pre>
+
+* `e` - The steam locomotive can be stopped by using Ctrl+C.
