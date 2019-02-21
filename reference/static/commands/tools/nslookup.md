@@ -33,7 +33,7 @@ Address: 216.58.216.78
 
 
 #### Finding the domain name of an IP address
-`$nslookup [address] [server]` can be used to find the domain of an IP address. For example,
+`$ nslookup [address] [server]` can be used to find the domain of an IP address. For example,
 
 `$ nslookup 141.211.243.251 8.8.8.8`
 
