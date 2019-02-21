@@ -1,21 +1,24 @@
 asciiview
 -------
-TODO: Add documentation for this command by submitting a pull request.
+
+asciiview is a commond that shows an ascii art.
 <!-- one line explanation would go here -->
 
 <!-- minimal example -->
 ~~~ bash
-*short* example of command usage and output
+asciiview [options] filename.jpg
 ~~~
 
 ---
 
 ### Useful Options / Examples
 
-#### Example command
+#### aview filename.p[ngbp]m
 
 ##### Break it down
-
-#### Example command
+aview will convert a .pnm image into ascii art format.
+aview supports zooming, unzooming, inversion, contrast, brightness and gamme control. It also allows to save into many formats. 
+#### asciiview earth_and_moon.jpg
 
 ##### Break it down
+asciiview converts the file formats into PNM using ImageMagin or NetPBM and start aview.
