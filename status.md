@@ -17,7 +17,7 @@ git status -s
 git status --short
 ~~~
 
-##### Break it down
+##### 
 This flag gives the output in the short-format. This output the status of each path in a format of : XY PATH1 -> PATH2.
 Path1 is the head the the ->path2 only shown when path1 is different than the worktree (a file is renamed).
 The XY is a two - letter status code.
@@ -38,7 +38,7 @@ git status -u
 git status --untracked-files=no
 ~~~
 
-##### Break it down
+##### 
 Can show or not show untracked files
 The parameter is optional and will default to all (showing all untracked files), but you can specify by adding:
 `no` = show no untracked files
@@ -51,7 +51,7 @@ The default can be changed using the status.showUntrackedFiles configuration var
 git status --ignored
 ~~~
 
-##### Break it down
+##### 
 Shows ignored files as well. These files are usually set with .gitignore previously.
 
 ####  --ignore-submodules[=<when>]
@@ -60,7 +60,7 @@ git status --ignore-submodules=untracked
 git status --ignore-submodules=dirty
 ~~~
 
-##### Break it down
+##### 
 This command ignored changes to submodules when looking for changes. The flag for <when> can be:
 `none` = consider submodule modified when it has untracked or modified files or if its HEAD differs from the commit record
 `untracked ` = submbodules are not considered dirty when they only contain untracked content (also scanned for modified content)
