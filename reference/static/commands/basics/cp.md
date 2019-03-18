@@ -25,6 +25,7 @@ $ cp file1.txt file2.txt
  * This is the simplest use of `cp`. It copies the contents of `file1.txt` and puts
    it into `file2.txt`. If `file2.txt` does not exist, it creates it and puts the
    contents of `file1.txt` into it. If `file2.txt` does exist, it overwrites it.
+   
 
 #### `cp -b`
 ~~~ bash
