@@ -21,7 +21,6 @@ $ ssh login.engin.umich.edu
 $ nohup ./myLongScript [options for myLongScript] &
 $ exit
 ~~~
-##### Break it down
  * myLongScript will continue to run even after exiting the ssh session, shutting down, etc.
  * by default, stdout and stderr output will be redirected to nohup.out in the working directory.
 
@@ -35,5 +34,4 @@ File1
 File2
 Directory1
 ~~~
-##### Break it down
  * adding a custom path allows you to redirect output to somewhere other than nohup.out
