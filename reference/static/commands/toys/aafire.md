@@ -35,5 +35,5 @@ brew install aalib
 
 #### Useful Commands
 By default a terminal window will be opened to simulate your ascii fire
-- `driver curses` - keep the fire inside your terimanl
+- `driver curses` - keep the fire inside your terminal
 
