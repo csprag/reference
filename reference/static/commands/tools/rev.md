@@ -19,7 +19,7 @@ dlrow olleh
 
 -h prints the help page for `rev`, describing its functionality and these two options
 
-#### Example command
+#### Example command using -V option
 ~~~bash
 $ rev -V
 rev from util-linux 2.31.1
@@ -27,10 +27,9 @@ $ rev -V test.txt
 rev from util-linux 2.31.1
 ~~~
 
-##### Break it down
 This flag simply displays the version of `rev` used, forgoing the printing of any lines to be reversed.
 
-#### Example command
+#### Example command using -h option
 ~~~bash
 $ rev -h
 Usage: rev [options] [file ...]
@@ -44,5 +43,4 @@ Options:
 For more details see rev(1).
 ~~~
 
-##### Break it down
 This flag simply displays the help page for `rev`, forgoing the printing of any lines to be reversed.
