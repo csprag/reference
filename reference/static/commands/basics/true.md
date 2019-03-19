@@ -26,7 +26,7 @@ else
 	echo "Never this"
 fi
 ~~~
-And the reason is that `var` is not explicitly set to `true` (like `var=$1`), it might contain something other than `true`, `false`, `1` or `0` which will be executed but probably shouldn't.
+And the reason is that if `var` is not explicitly set to `true` (like `var=$1`), it might contain something other than `true`, `false`, `1` or `0` which will be executed but probably shouldn't.
 ### Useful Options/Examples
 The `true` function can take any argument and will still return 0. So the above example could be rewritten as: <br>
 ~~~ bash
