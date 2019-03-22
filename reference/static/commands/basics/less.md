@@ -60,6 +60,7 @@ less +2 test.txt
 This will shift right or left respectively. If a number is typed in beore this command, the amount shifted will be that number
 
 ~~~ bash
+
 $ less test.txt
 
 This is the content of test! LOOOOOOOOOOOOOOOOOOOOOONG LIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINEEEEEEEEEEEEEEEE
