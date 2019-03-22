@@ -13,11 +13,11 @@ test.txt (END)
 
 ### Useful Options / Examples
 
-#### Example command
-q
-##### Break it down
+#### Example command q
+
 While in less, pressing q will quit the program and send you back to terminal in the same state you left it in.
 
+~~~ bash
 $ less test.txt
 
 This is the content of test!
@@ -35,11 +35,13 @@ This is the content of test!
 test.txt (END)
 
 q
-#### Example command
-+(positive integer)
-##### Break it down
+~~~
+
+#### Example command +(positive integer)
+
 This will begin the file at the specified line
 
+~~~ bash
 less +2 test.txt
 
 2
@@ -51,15 +53,13 @@ less +2 test.txt
 5
 
 (END)
+~~~
 
+#### Example command ESC-) or RIGHTARROW ESC-( or LEFTARROW
 
-#### Example command
- ESC-) or RIGHTARROW
-
- ESC-( or LEFTARROW
-##### Break it down
 This will shift right or left respectively. If a number is typed in beore this command, the amount shifted will be that number
 
+~~~ bash
 $ less test.txt
 
 This is the content of test! LOOOOOOOOOOOOOOOOOOOOOONG LIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINEEEEEEEEEEEEEEEE
@@ -75,14 +75,13 @@ ntent of test! LOOOOOOOOOOOOOOOOOOOOOONG LIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 10 LEFTARROW
 
 This is the content of test! LOOOOOOOOOOOOOOOOOOOOOONG LIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINEEEEEEEEEEEEEEEE
+~~~
 
-#### Example command
- SPACEBAR
+#### Example command SPACEBAR
 
- u
-##### Break it down
 This will shift down or up respectively. If a number is typed in beore this command, the amount shifted will be that number
 
+~~~ bash
 $ less test.txt
 
 This is content of test!
@@ -124,9 +123,9 @@ This is content of test!
 6
 
 7
+~~~
 
-#### Example command
-man less
-##### Break it down
+#### Example command man less
+
 Many more commands exist, visit man less to see if any are useful to you
 
