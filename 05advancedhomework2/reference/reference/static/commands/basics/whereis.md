@@ -11,7 +11,6 @@ ls: /bin/ls /usr/share/man/man1/ls.1.gz
 ---
 
 ### Useful Options / Examples
-
 General form:
 
 `whereis [-bms] [-BMS directory -f] command`
@@ -26,6 +25,7 @@ ls: /bin/ls
 ~~~
 
 The `-m` flag returns only the location of the command's manual file.
+
 ~~~ bash
 $ whereis -m mv
 mv: /usr/share/man/man1/mv.1.gz
@@ -43,7 +43,6 @@ cp: /usr/share/man/man1/cp.1.gz
 The command sequence above tells the computer to look for binary files for the command `cp` only in the directory /usr/bin/ and look for other file types in default paths.
 
 #### How whereis works
-
 `whereis` only looks in a certain set of hard-coded paths for the binary, source, and command files. This is why it is sometimes necessary to tell the whereis command what other directories to search in. To see the default directories that whereis looks in, use the `-l` flag.
 
 ~~~bash
