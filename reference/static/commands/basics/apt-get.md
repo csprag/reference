@@ -1,6 +1,12 @@
 # apt-get
+<<<<<<< Updated upstream
 -------	-------
 apt-get is a package management tool. It provides you the tools to conveniently manage the packages on your system.
+=======
+--------------
+apt-get is a package management tool
+
+>>>>>>> Stashed changes
 
  ~~~ bash
 $ apt-get install <package_name> 
@@ -13,7 +19,7 @@ $
  ~~~
 
 
- ---	---
+ ------
 
 
  ### Useful Options / Examples
