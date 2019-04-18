@@ -40,31 +40,33 @@ set showcmd
 
 ### vim-plug  
 
-By using plugins you can also add a lot more features
+######By using plugins you can also add a lot more features
 
-First go to the vim-plug (plugin manager I use) site : 
+######First go to the vim-plug (plugin manager I use) site : 
 
-	https://github.com/junegunn/vim-plug/wiki/tutorial
+######https://github.com/junegunn/vim-plug/wiki/tutorial
 
-Next, Now that you have the plugin, you can add the following plugins that I find really useful 
+######Next, Now that you have the plugin, you can add the following plugins that I find really useful 
 
-Now You should look at the documentation for them and others you are interested in adding, but I'll tell you about some of them
+######Now You should look at the documentation for them and others you are interested in adding, but I'll tell you about some of them
 
-	1. ***nerdtree*** shows a tree view of the project you have open and lets you opens files in splits and more
 
-	2. ***ale*** is a linter for vim that will tell you when you're making precompile errors like unused variables
 
-	3. ***surround*** lets you add (or remove) quotes or parathenses to textobjects
+__nerdtree__ shows a tree view of the project you have open and lets you opens files in splits and more
 
-	4. ***lightline*** makes your status bar look a lot cooler
+__ale__ is a linter for vim that will tell you when you're making precompile errors like unused variables
 
-	5. ***clang*** is a autocomplete for c family languages (requires that you have clang installed) 
+__surround__ lets you add (or remove) quotes or parathenses to textobjects
 
-	6. ***fugitive*** lets you run git commands in vim like commit, add, push ... etc
+__lightline__ makes your status bar look a lot cooler
 
-	7. ***delimitMate*** automatically creates the pair to curly brace or parantheses or brackets 
+__clang__ is a autocomplete for c family languages (requires that you have clang installed) 
+
+__fugitive__ lets you run git commands in vim like commit, add, push ... etc
+
+__delimitMate__ automatically creates the pair to curly brace or parantheses or brackets 
 	
-	8. ***easy-align*** makes all your indents line up correctly automatically like other IDEs
+__easy-align__ makes all your indents line up correctly automatically like other IDEs
 ```
 call plug#begin('~/.vim/plugged')
 
@@ -86,8 +88,10 @@ call plug$#end()
 ###  After adding that to your .vimrc, run the following in vim.
 
 ```
+" This just tells vim to resource you .vimrc change from the source file
 :source %
 
+" The vim-plug command to add all the new plugins
 :PlugInstall
 ```
 
