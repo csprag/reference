@@ -6,7 +6,7 @@ A few things an eecs201 student did to make his vim like an IDE.
 ---
 
 ## Basic additions to your .vimrc
-* The following require no vim plugins, but will improve your vim in basic ways to make it faster. Some of the
+The following require no vim plugins, but will improve your vim in basic ways to make it faster. Some of the
 	remaps can be changed to your liking so you maneuver more efficiently through vim.
 
 ```
@@ -40,30 +40,31 @@ set showcmd
 
 ### vim-plug  
 
-* But by using plugins you can also add a lot more features
+By using plugins you can also add a lot more features
 
-* Go to the vim-plug (plugin manager I use) site : 
+First go to the vim-plug (plugin manager I use) site : 
 
-- https://github.com/junegunn/vim-plug/wiki/tutorial
+	https://github.com/junegunn/vim-plug/wiki/tutorial
 
-* Now that you have the plugin, you can add the following plugins that I find really useful 
+Next, Now that you have the plugin, you can add the following plugins that I find really useful 
 
-* You should look at the documentation for them, but I'll tell you about some of them
+Now You should look at the documentation for them and others you are interested in adding, but I'll tell you about some of them
 
 	1. ***nerdtree*** shows a tree view of the project you have open and lets you opens files in splits and more
 
-	1. ***ale*** is a linter for vim that will tell you when you're making precompile errors like unused variables ... etc
+	2. ***ale*** is a linter for vim that will tell you when you're making precompile errors like unused variables
 
-	1. ***surround*** lets you add (or remove) quotes or parathenses to textobjects
+	3. ***surround*** lets you add (or remove) quotes or parathenses to textobjects
 
-	1. ***lightline*** makes your status bar look a lot cooler
+	4. ***lightline*** makes your status bar look a lot cooler
 
-	1. ***clang*** is a autocomplete for c family languages (requires that you have clang installed) 
+	5. ***clang*** is a autocomplete for c family languages (requires that you have clang installed) 
 
-	1. ***fugitive*** lets you run git commands in vim like commit, add, push ... etc
+	6. ***fugitive*** lets you run git commands in vim like commit, add, push ... etc
 
-	1. ***delimitMate*** automatically creates the pair to curly brace or parantheses or brackets 
-
+	7. ***delimitMate*** automatically creates the pair to curly brace or parantheses or brackets 
+	
+	8. ***easy-align*** makes all your indents line up correctly automatically like other IDEs
 ```
 call plug#begin('~/.vim/plugged')
 
@@ -82,7 +83,7 @@ Plug 'tpope/vim-fugitive'
 call plug$#end()
 ```
 
-###  After adding that to your .vimrc, run the following while in vim.
+###  After adding that to your .vimrc, run the following in vim.
 
 ```
 :source %
@@ -90,6 +91,6 @@ call plug$#end()
 :PlugInstall
 ```
 
-* Now your vim should be more like an IDE. You can add even more plugins by searching the internet. Vim has a 
+Now your vim should be more like an IDE. You can add even more plugins by searching the internet. Vim has a 
 	steep learning curve but it can make you a lot faster at changing code if you take the time to learn it and 
 	add a few usefule plugins to provide the benefits of a full IDE.
