@@ -3,13 +3,13 @@ rsync
 
 rsync is usually used for remotely copying files to or from a computer to which you have ssh access. Copies files either to or from a remote host, or locally on the current host (it does not support copying files between two remote hosts).
 
-
-Usage
--------
-Basic Syntax:
 ~~~ bash
 $ rsync source destination
 ~~~
+
+---
+
+### Useful Options / Examples
 
 For example, copy files from a remote machine:
 ~~~ bash

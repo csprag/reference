@@ -21,6 +21,7 @@ __pycache__/
 .env
 .flaskenv
 env/
+venv/
 env*
 dist/
 build/
