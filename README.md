@@ -3,7 +3,7 @@
 This repository holds the reference page for the course homepage for Computer Science Pragmatics,
 a course for early-career EECS students at the University of Michigan.
 
-For more information, visit the course homepage: [https://csprag.herokuapp.com](https://csprag.herokuapp.com/)
+For more information, visit the course homepage: [https://cspragmatics.com](https://cspragmatics.com/)
 
 ## Contributing
 
@@ -43,10 +43,10 @@ After making a change and verifying that it works, please submit a [pull request
 
 [GitHub Pages]: https://pages.github.com/
 [Flask]: http://flask.pocoo.org/
-[open issues]: https://github.com/c4cs/c4cs.github.io/issues
-[new issue]: https://github.com/c4cs/c4cs.github.io/issues/new
+[open issues]: https://github.com/csprag/reference/issues
+[new issue]: https://github.com/csprag/reference/issues/new
 [Markdown]: http://daringfireball.net/projects/markdown/
-[reference page]: https://csprag.github.io/reference
+[reference page]: https://cspragmatics.com/reference
 [gh docs]:https://help.github.com/articles/using-jekyll-with-pages/
 [flask docs]: http://flask.pocoo.org/docs/1.0/
-[pull request]: https://github.com/csprag/csprag.github.io/pulls
+[pull request]: https://github.com/csprag/reference/pulls
