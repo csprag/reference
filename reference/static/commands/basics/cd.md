@@ -1,7 +1,7 @@
 cd
 -------
 
-This is my super short description.
+This is my super long description.
 
 ~~~ bash
 $ cd ~
