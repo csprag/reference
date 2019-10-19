@@ -1,21 +1,51 @@
 gzip
 -------
-TODO: Add documentation for this command by submitting a pull request.
-<!-- one line explanation would go here -->
+`gzip` is used to compress or decompress a file.
 
-<!-- minimal example -->
 ~~~ bash
-*short* example of command usage and output
+$ touch file
+$ gzip file
+$ ls
+file.gz
+$ gzip -d file.gz
+$ ls
+file
 ~~~
 
 ---
 
 ### Useful Options / Examples
 
-#### Example command
+#### `gzip` file
+~~~ bash
+$ gzip file
+$ ls
+file.gz
+~~~
 
 ##### Break it down
+This command compresses _file_ into _file.gz_
 
-#### Example command
+_Note:_ this discards file
+
+
+#### `gzip -d` file.gz
+~~~ bash
+$ gzip -d file.gz
+$ ls
+file
+~~~
 
 ##### Break it down
+This command unzips (_de_-zips) a file with the `.gz` extension.
+
+
+#### `gzip -k` file
+~~~ bash
+$ gzip -k file
+$ ls
+file file.gz
+~~~
+
+##### Break it down
+This command compresses and _keeps_ the file being compressed
