@@ -1,6 +1,6 @@
 source
 ------
-`source` is a command that reads and executes the content of a file, content that is passed as an argument to the shell script. it uses the $PATH variable to find the path of the file to execute
+`source` is a command that reads and executes the content of a file, content that is passed as an argument to the shell script. It uses the $PATH variable to find the path of the file to execute
 
 ~~~ bash
 $ echo "ls" > hello.txt
