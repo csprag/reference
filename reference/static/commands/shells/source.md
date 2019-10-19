@@ -42,21 +42,23 @@ The user has provided 3 argument, execute the loop :
 One such occasion where running source is useful is in the `.bashrc`
 If you would like to alias a word, you do this in the `.bashrc`
 
-To do this, open your `.bashrc` file in vim.
+To do this, open your `.bashrc` file in vim. 
 
 ~~~ bash
 $ vim ~/.bashrc
 ~~~
 
 In vim, type the following command, note that you will need to put in a custom path to your desktop
-folder
+folder (write in vim pressing i)
 
 ~~~ bash
 alias desktop='cd /your/path/to/Desktop'
 ~~~
 
+Quit vim by typing `:wq` and hitting enter.
+
 Now, if you run
- 
+
 ~~~ bash
 $ source ~/.bashrc
 $ desktop
