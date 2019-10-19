@@ -13,7 +13,7 @@ def reference():
         for category in subdirList:
             commands[category] = []
             # over COMMANDS in category
-            for filename in sorted(listdir(path.join(commands_path, category))):
+            for filename in sorted([f for f in listdir(path.join(commands_path, category)) if not f.startswith('.')]):
                 filestring = open(path.join(commands_path, category, filename)).read()
                 filecontents = re.split('\n--+ *\n', filestring, flags=re.MULTILINE)
                 commands[category].append((path.splitext(filename)[0], filecontents[0], filecontents[1]))
