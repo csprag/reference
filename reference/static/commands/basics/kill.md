@@ -49,11 +49,28 @@ $ kill -l
 
 Some common signals apart from 9 and 15 are:
 
-| Signal Name | Value      | Effect                      |
-|-------------|------------|-----------------------------|
-| SIGHUP      | 1          | Hangup                      |
-| SIGINT      | 2          | Interrupt from the keyboard |
-| SIGSTOP     | 17, 19, 23 | Stop the process            |
+| Signal Name  &nbsp;   | Value           | Effect                                    |
+|-----------------|-----------------|-------------------------------------------|
+| SIGHUP          | 1               | Hangup                                    |
+| SIGINT          | 2               | Interrupt from the keyboard               |
+| SIGQUIT         | 3               | Quit process and dump core                |
+| SIGKILL         | 9               | Kill process immediately, can't be caught |
+| SIGSTOP         | 17, 19, 23 &nbsp; | Stop the process                          |
+
+<br />
+Here is an example of killing a process with a process value specified.
+~~~ bash
+$ kill -9 <process_id>
+~~~
+
+You may also use the *-s* flag or simply *-<FLAG_NAME>* to pass in symbolic names of each signal rather than the signal value itself.
+
+For example
+
+~~~ bash
+$ kill -s HUP <process_id>
+~~~
+
 
 
 ### killall
