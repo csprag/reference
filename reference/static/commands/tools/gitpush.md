@@ -33,3 +33,7 @@ Forces the push, even if it results in a non-fast-forward merge. Do not use the 
 ##### `git push <remote> --all`
 Use this command to push all of your branches to the specified remote.
 
+##### `git push <remote> --delete`
+Use this command to delete all listed references from the remote repository. This can also be done by prefixing all references with a colon.
+
+
