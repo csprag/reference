@@ -11,6 +11,9 @@ pdflatex [filename].tex
 
 ### Useful Options / Examples
 
+- The `-8bit` option ensures that all characters are printable, i.e., don't use any `^^X` sequences.
+- The `-halt-on-error` option makes compilation stop as soon as an error is found.
+
 #### Example command
 
 ##### Break it down
