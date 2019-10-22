@@ -15,11 +15,11 @@ map auto_home          0         0         0   100%       0                   0 
 
 ---
 
-Filesystem - the filesystem on the machine
-Used - the amount of space used in 512-byte blocks (on Mac)
-Available - the amount of available space in 512-byte blocks
-Use% - the percentage that the filesystem is in use
-Mounted on - where the filesystem is mounted
+Filesystem - the filesystem on the machine\n
+Used - the amount of space used in 512-byte blocks (on Mac)\n
+Available - the amount of available space in 512-byte blocks\n
+Use% - the percentage that the filesystem is in use\n
+Mounted on - where the filesystem is mounted\n
 
 ### Useful Options / Examples
 
