@@ -13,6 +13,8 @@ pdflatex [filename].tex
 
 - The `-8bit` option ensures that all characters are printable, i.e., don't use any `^^X` sequences.
 - The `-halt-on-error` option makes compilation stop as soon as an error is found.
+- The `-version` prints important version information about `pdflatex` and the LaTeX distribution on your computer.
+- The `-help` option prints out information about the program, which can be used to learn more about some of the more advanced flags.
 
 #### Example command
 
