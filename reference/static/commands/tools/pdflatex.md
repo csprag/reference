@@ -16,10 +16,18 @@ pdflatex [filename].tex
 - The `-version` prints important version information about `pdflatex` and the LaTeX distribution on your computer.
 - The `-help` option prints out information about the program, which can be used to learn more about some of the more advanced flags.
 
-#### Example command
+#### Example 1
 
-##### Break it down
+~~~ bash
+pdflatex -8bit myTexFile.tex
+~~~
 
-#### Example command
+This will compile `myTexFile.tex` into `myTexFile.pdf`, and ensure that all characters can be printed.
 
-##### Break it down
+#### Example 2
+
+~~~ bash
+pdflatex -halt-on-error buggyTexFile.tex
+~~~
+
+This will attempt to compile `buggyTexFile.tex` into `buggyTexFile.pdf`, but will halt if an error is found. If/when this occurs, it will output the location and cause of the error, making it useful for quickly debugging.
