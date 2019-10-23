@@ -16,7 +16,9 @@ An example of the command being used to unzip a zip file:
 
 ![examplepic](https://i.ibb.co/3yN2cW3/Screen-Shot-2019-10-23-at-5-37-35-PM.png "Terminal Unzip Screenshot")
 
-### Options
-
-### Examples
+#### Notable Flags
+| Flag | Description |
+| ---- | ----------- |
+| -l   | list archive files (short format). This flag will list information about the files which exist inside the zipped archive without actually unzipping the files. The names, uncompressed file sizes and modification dates and times of the specified files are printed, along  with  totals  for  all files  specified. |
+| -p   | extract  files  to  pipe (stdout).  Nothing but the file data is sent to stdout, and the files are always extracted in binary format, just as they are stored (no conversions). You can get some really weird results with this one -- for example if your archive contained pdf files. Then printing out the contents of the pdf file to stdout will give you a bunch of inscrutable characters.|
 
