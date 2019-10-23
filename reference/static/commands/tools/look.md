@@ -65,7 +65,7 @@ This command can also be used to easily find what headers are being used by a .c
 
 ~~~ bash
 $ look "#include" test.cpp   // list header includes
-\# include <iostream>
-\# include <string>
-\# include <cmath>
+# include <iostream>
+# include <string>
+# include <cmath>
 ~~~
