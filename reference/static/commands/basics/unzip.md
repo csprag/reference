@@ -26,4 +26,14 @@ An example of the command being used to unzip a zip file:
 | -t   | test archive files.  This option extracts each specified file in memory and compares the CRC (cyclic redundancy check, an enhanced checksum) of the  expanded  file  with the original file's stored CRC value. Does not actually extract files |
 | -z   | display only the archive comment. |
 
+#### A Useful Script
+If you have multiple .zip files in a folder, the following bash script can be useful for extracting them all at once:
+~~~
+for file in $1/*
+do
+	unzip $file
+done
+~~~
+I use this often when I am downloading teaching curriculum resources for my church's children's ministry. It makes the unzipping much faster, and it is a cool way to make use of bash scripts! 
+
 
