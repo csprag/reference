@@ -20,5 +20,10 @@ An example of the command being used to unzip a zip file:
 | Flag | Description |
 | ---- | ----------- |
 | -l   | list archive files (short format). This flag will list information about the files which exist inside the zipped archive without actually unzipping the files. The names, uncompressed file sizes and modification dates and times of the specified files are printed, along  with  totals  for  all files  specified. |
-| -p   | extract  files  to  pipe (stdout).  Nothing but the file data is sent to stdout, and the files are always extracted in binary format, just as they are stored (no conversions). You can get some really weird results with this one -- for example if your archive contained pdf files. Then printing out the contents of the pdf file to stdout will give you a bunch of inscrutable characters.|
+| -v   | list  archive files (verbose format) or show diagnostic version info. Similar to -l flag but more verbose. |
+| -p   | extract  files  to  pipe (stdout).  Nothing but the file data is sent to stdout, and the files are always extracted in binary format, just as they are stored (no conversions). You can get some really weird results with this one -- for example if your archive contained pdf files. Then printing out the contents of the pdf file to stdout will give you a bunch of inscrutable characters. |
+| -T   | set the timestamp on the archive(s) to that of the newest file in each one. |
+| -t   | test archive files.  This option extracts each specified file in memory and compares the CRC (cyclic redundancy check, an enhanced checksum) of the  expanded  file  with the original file's stored CRC value. Does not actually extract files |
+| -z   | display only the archive comment. |
+
 
