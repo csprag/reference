@@ -12,6 +12,7 @@ $ firefox
 
 ##Basic Usage
 `$ firefox`
+
 ---
 
 ###Useful Options / Examples
