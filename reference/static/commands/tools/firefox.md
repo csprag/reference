@@ -60,11 +60,4 @@ $ firefox -safe-mode
 Start firefox in safe mode. Disables all third party extensions. Useful if extension breaks browser or you're having trouble with an extension.
 
 
-#### `firefox -search term`
-
-~~~bash
-$ firefox -search penguinpatroller
-~~~
-
-Search for term with default search engine.
 
