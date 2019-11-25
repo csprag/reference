@@ -1,21 +1,28 @@
 asciiview
 -------
-TODO: Add documentation for this command by submitting a pull request.
-<!-- one line explanation would go here -->
+`asciiview` is an image viewer that displays images in the terminal as ASCII art. Can be useful for viewing images without a graphical environment.
 
-<!-- minimal example -->
+To use `asciiview`, simply type:
 ~~~ bash
-*short* example of command usage and output
+$ sudo apt install aview imagemagick
+$ asciiview imageFile.png
 ~~~
 
 ---
 
-### Useful Options / Examples
+### Example of `asciiview`
 
-#### Example command
+Using ASCII art, `asciiview` displays the following image file of an apple using
+only ASCII characters.
 
-##### Break it down
+![asciiview](https://pbs.twimg.com/media/AlKjKKfCAAAlsNl.jpg)
 
-#### Example command
-
-##### Break it down
+#### Useful Commands
+- 'a','w','d','x' - Move the image one row/column
+- '+' - Zoom in
+- '-' - Zoom out
+- 's' - Save image.
+- 'q' - Exit the viewer
+- 'SPACE' - Redraw the picture
+- '.'/',' - Increase/Decrease contrast
+- '>'/'<' - Increase/Decrease brightness
