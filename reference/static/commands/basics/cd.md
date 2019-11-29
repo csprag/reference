@@ -1,15 +1,16 @@
 cd
 -------
 
-Short description of the command
+This is my super long description.
 
 ~~~ bash
-*short* example of command usage and output
+$ cd ~
 ~~~
 
 ---
 
 ### Useful Options / Examples
+`cd`
 
 #### Example command
 
