@@ -56,6 +56,19 @@ $ echo $PATH
 ~~~
 
 #### Example command
+`echo x >> y` is used to append x to the end of y.
+
+~~~ bash
+$ echo Hello > Hello_World.txt
+$ cat Hello_World.txt
+Hello
+$ echo World >> Hellow_World.txt
+$ cat Hello_World.txt
+Hello
+World
+~~~
+
+#### Example command
 `echo -e` flag is used to enable the backslash-escaped characters in following table:
 
 ~~~ bash
@@ -64,6 +77,21 @@ Hello World.
 This is a newline.
 ~~~
 
+#### Example command
+Examples with `echo -e` include:
+
+~~~ bash
+$ echo -e "EECS \n201 \nis \nfun
+EECS
+201
+is
+fun
+
+$ echo - e "\vEECS \v201 \vis \vfun
+EECS
+    201
+       is
+         fun
 ~~~
 |       |                                        Backslashescaped characters                                         |
 |-------|:----------------------------------------------------------------------------------------------------------:|
