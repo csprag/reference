@@ -1,20 +1,27 @@
 factor
 -------
+The factor command in Linux is used to print the prime factors of the given numbers, either given from command line or read from standard input.
 
-Short description of the command
+The numbers given through standard input may be delimited by tabs, spaces or newlines.
+
 
 ~~~ bash
-*short* example of command usage and output
+$ factor 100
+100: 2 2 5 5
+$ factor 13
+13: 13
 ~~~
 
 ---
 
 ### Useful Options / Examples
+Only one usage option
+ 
+  Usage: factor [NUMBER]
 
-#### Example command
+Additional Options: --help , --version
 
-##### Break it down
+  --help display this help and exit
 
-#### Example command
+  --version output version information and exit
 
-##### Break it down
