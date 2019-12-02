@@ -18,19 +18,18 @@ Swap:      29312892           0    29312892
 
 ### Useful Options
 
--b, –-bytes : displays the memory in bytes.
--k, –-kilo : displays the amount of memory in kilobytes(default).
--m, –-mega : displays the amount of memory in megabytes.
--g, –-giga : displays the amount of memory in gigabytes.
-    ––tera : displays the amount of memory in terabytes.
--h, –-human : shows all output columns scaled to shortest three digit unit and display the units: B(bytes), K(kilos), M(megas), G(gigas), and T(teras).
-    --si : shows the output in powers of 1000 instead of 1024.
---- 
--c N, –-count N : displays the output N number of times and this option actually works with -s option.
--s N, –-seconds N : allows you to display the output continuously after an N seconds delay. 
--t,   –-total : adds an additional line in the output showing the column totals.
-      –-help : displays a help message and exits.
--V,   –-version : It displays version info and exits.
+-b, --bytes : displays the memory in bytes. <br />
+-k, --kilo : displays the amount of memory in kilobytes (default). <br />
+-m, --mega : displays the amount of memory in megabytes. <br />
+-g, --giga : displays the amount of memory in gigabytes. <br />
+&nbsp;&nbsp;&nbsp;&nbsp; --tera : displays the amount of memory in terabytes. <br />
+-h, --human : shows all output columns scaled to shortest three digit unit and display the units: B(bytes), K(kilos), M(megas), G(gigas), and T(teras). <br />
+&nbsp;&nbsp;&nbsp;&nbsp; --si : shows the output in powers of 1000 instead of 1024. <br /><br />
+-c N, --count N : displays the output N number of times and this option actually works with -s option. <br />
+-s N, --seconds N : allows you to display the output continuously after an N seconds delay. <br />
+-t,   --total : adds an additional line in the output showing the column totals. <br />
+&nbsp;&nbsp;&nbsp;&nbsp; --help : displays a help message and exits. <br />
+-V,   --version : It displays version info and exits.
 
 
 ### Examples
