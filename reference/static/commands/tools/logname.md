@@ -24,7 +24,7 @@
 
 `$ logname`
 
-*output: `Your current login name*
+*output: `Your current login name`*
 
 -------
 ## Difference between logname and similar commands
