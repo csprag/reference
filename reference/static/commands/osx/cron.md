@@ -1,13 +1,20 @@
-cron
+# cron
 -------------
+## INFO
 
 cron is a daemon or process which runs in the background.
 
+## DETAILs
+
 Specifically, it allows the user to schedule predefined processes to run in the background at a regular interval of time.
 
-cron repeatedly checks for when the scheduled time matches the current time, and then executes it's task once that condition is met.
+cron repeatedly checks for when the scheduled time matches the current time, and then executes its task once that condition is met.
+
+## SYNTAX
 
 cron [-f] [-l] [-n] [-L loglevel]
+
+### Modifications
 
 -f keeps the process in the foreground
 -l enables LSB compliant names for cron.d files
