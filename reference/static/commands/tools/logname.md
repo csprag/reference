@@ -29,5 +29,5 @@
 -------
 ## Difference between logname and similar commands
 
-#### *It returns the current login name even in the sudo mode, while other commands, such as `whoami`, cannot do*
+It returns the current login name even in the sudo mode, while other commands, such as `whoami`, cannot do
 
