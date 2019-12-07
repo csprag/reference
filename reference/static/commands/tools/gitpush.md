@@ -7,7 +7,7 @@ git push
 $ git push origin master
 ~~~
 
-###Basic Usage
+## Basic Usage
 `$ git push <remote> <branch>`
 ---
 
