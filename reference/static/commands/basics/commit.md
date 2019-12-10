@@ -14,6 +14,13 @@ $ git commit
 
 ### Useful Options / Examples
 
+#### `commit`
+~~~ bash
+$ git commit
+~~~
+
+* If git commit is ran without of any of the following flags then your terminal will launch you into your prefered editor to make changes to your commit if you desire to. For example, if your preferred editor is vim, you will be launched into vim where you can add a commit message if you desire.
+
 #### `commit -m`
 ~~~ bash
 $ git commit -m <msg>
